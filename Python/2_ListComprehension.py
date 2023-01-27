@@ -7,7 +7,7 @@ print(list11)
 
 
 #2nd part
-
+#list ={i*1 for i in list1]
 #list2=[i*2 for i in list1]
 #list3=[i*3 for i in list1]
 #list4=list1+list2+list3
