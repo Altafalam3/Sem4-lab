@@ -14,3 +14,7 @@ print("\nPart 3:")
 print(part3)
 print("\nPart 4:")
 print(part4)
+
+'''
+Create a 8*3 array for numbers from 10 to 34 . Split the array into 4 equal parts
+'''
