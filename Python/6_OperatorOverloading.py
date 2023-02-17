@@ -11,32 +11,16 @@ class vector:
         return amp
 
     def __lt__(self,v2):
-        if (self.calAmp() < v2.calAmp()):
-            status = "True"
-        else:
-            status = "False"
-        return status
-
+        return (self.calAmp() < v2.calAmp())
+    
     def __gt__(self,v2):
-        if (self.calAmp() > v2.calAmp()):
-            status = "True"
-        else:
-            status = "False"
-        return status
+        return (self.calAmp() > v2.calAmp())
 
     def __le__(self,v2):
-        if (self.calAmp() <= v2.calAmp()):
-            status = "True"
-        else:
-            status = "False"
-        return status
-
+        return (self.calAmp() <= v2.calAmp())
+    
     def __ge__(self,v2):
-        if (self.calAmp() >= v2.calAmp()):
-            status = "True"
-        else:
-            status = "False"
-        return status
+        return (self.calAmp() >= v2.calAmp())
         
     
 v1 = vector(9,4)
@@ -51,4 +35,3 @@ print(v1>v2)
 print(v1<=v2)
 
 print(v1>=v2)
-
