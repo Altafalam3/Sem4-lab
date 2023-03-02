@@ -64,9 +64,3 @@ e1= employee(1,16)
 print('Emp Calculating gross salary' , e1.calculate())
 e1.update()
 
-
-
-            
-        
-
-    
