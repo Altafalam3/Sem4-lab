@@ -1,17 +1,9 @@
 def compare(l1,l2):
-    small=0
-    status=True
-    for i in l2:
-        if(small>i):
-            small=i
-
-    for j in l1:
-        if(j>small):
-            status= False
-            break
-
-    print(status)
-
+    n=len(l1)
+    for i in range(n):
+        if(l1[i]>l2[i]):
+            return False
+    return True
     
 def merge(l1,l2):
     l1 = l1 +l2
