@@ -1,3 +1,15 @@
+'''
+Create a web application using Flask to display the Books
+available in the library when the ‘books’ endpoint is visited. For
+each book, display ISBN number, Book title, Author and publication.
+Also facilitate the search of book by ISBN number. For this the ISBN
+number should be passed as parameter and the details of only that
+book will be displayed. (Use GET, render template, redirect,
+jsonify methods).
+
+
+'''
+
 from flask import Flask, render_template, jsonify, request, redirect
 import json
 
