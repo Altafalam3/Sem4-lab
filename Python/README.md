@@ -1,5 +1,77 @@
 # 4,8,9 assignment programs are pending, remaining all programs uploaded
 
+### Assignment 3
+```
+Return the array of even rows and odd columns from following array 
+a=[[2,4,6,8,6],[23,56,45,10,83],[2,5,33,22,88]]
+
+
+
+Create a 8*3 array for numbers from 10 to 34 and split the array into 4 parts.
+```
+
+
+### Assignment 4
+```
+Write a function that can add any number of iterables when passed as a parameter to it . include appropriate docstring for function .Show the execution with various cases in python 
+
+
+
+Given a sequence of n values x1, x2, ..., xn and 4 window size k>0, the k-th moving average of the given sequence is defined as follows:
+
+The moving average sequence has n-k+1 elements as shown below. The
+moving averages with k=4 of a ten-value sequence (n=10) is shown below
+
+i 1 2 3 4 5 6 7 8 9 10
+
+Input 10 20 30 40 50 60 70 80 90 100
+y1 25 = (10+20+30+40)/4
+
+y2 35 = (20+30+40+50)/4
+
+y3 45 = (30+40+50+60)/4
+
+y4 55 = (40+50+60+70)/4
+
+y5 65 = (50+60+70+80)/4
+
+y6 75 = (60+70+80+90)/4
+
+y7 85 = (70+80+90+100)/4
+
+Thus, the moving average sequence has n-k+1=10-4+1=7 values.
+Test it over [3, 5, 7, 2, 8, 10, 11, 65, 72, 81, 99, 100, 150] and window of 3 .
+
+
+
+Accept an 1-D array from user. Write a function to convert it into a matrix
+called Vandermonde matrix. It is obtained as follows:
+Each ith column of the matrix is obtained by raising the element of array
+to power i and maximum value of power dictates the number of columns
+in the matrix. Also it is one of the parameters to the function generating this marix. Another parameter to the function will be Boolean variable 'ascending'.
+
+If ascending is true, power of the element will be in increasing order
+starting from 0. If ascending is not specified, power of the ith column of
+the matrix will be (p-i-1) where p is the number of columns.
+
+e.g. M=[1,2,3]
+1)
+matrix=
+1 1 1 
+1 2 4
+3 5 9 
+(when p=3 and ascending = True)
+
+2)
+matrix= 
+1 1 1 
+4 2 1
+9 3 1
+(when p=3 and ascending = False) .
+
+```
+
+
 ### Assignment 10
 ```
 Using Tkinter create a calculator having following appearance and
