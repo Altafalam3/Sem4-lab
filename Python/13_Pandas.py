@@ -34,3 +34,19 @@ print(df.loc[df['Publication'] == 'Metro Publication', ['Title', 'Author']])
 #To rename columns “Copies sold in first edition”, “Copies sold in second edition” and “Copies sold in third edition”to FE, SE and TE respectively:
 df = df.rename(columns={'Copies sold in first edition': 'FE', 'Copies sold in second edition': 'SE', 'Copies sold in third edition': 'TE'})
 print(df.columns)
+
+# To add a column “Average sale” to your dataframe derived as (average of FE, SE and TE) * Price:
+df['Average sale'] = ((df['FE'] + df['SE'] + df['TE']) / 3) * df['Price']
+print(df.head())
+
+# To display the details of books grouped by author:
+grouped_data = df.groupby('Author').agg({'Title': 'unique', 'Publication': 'unique', 'Price': 'mean', 'FE': 'sum', 'SE': 'sum', 'TE': 'sum', 'Average sale': 'mean'})
+print(grouped_data)
+
+# For each group obtained in above query display maximum value of Average sale:
+max_sale = grouped_data['Average sale'].max()
+print("Maximum value of Average sale:", max_sale)
+
+# Reshape your dataframe such that rows will show ‘Author’, column will show “Publication” and values will be ‘Title’ of book
+pivot_data = pd.pivot_table(df, values='Title', index=['Author'], columns=['Publication'], aggfunc=lambda x: ', '.join(x))
+print(pivot_data)
