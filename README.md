@@ -1,7 +1,12 @@
 # SE IT Sem4 Lab Programs
 
-Do like if this has helped you and if you want to add any programs feel free to send pull requests . 
+Progress of completion
+### √ Python Lab 
+### × MPL
+### × CN
+### × Unix
 
+Do like if this has helped you , Pull requests are welcomed!!
 <blockquote>
 Feel free to reach out to me if you have any doubts or feedbacks regarding this.<br>
 Altaf alam<br>
