@@ -1,4 +1,4 @@
-# 4,8,9 assignment programs are pending, remaining all programs uploaded
+# 8,9 assignment programs are pending, remaining all programs uploaded
 
 ### Assignment 3
 ```
