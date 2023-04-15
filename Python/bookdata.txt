@@ -1,0 +1,3 @@
+{'title': '1', 'author': 'js', 'booktype': 'dj', 'publication': 'aj', 'price': '34'}
+{'title': 'ak', 'author': 'aj', 'booktype': 'dj', 'publication': 'alh', 'price': '92'}
+{'title': 'kasdk', 'author': '3', 'booktype': 'asdsk', 'publication': 'dk', 'price': 'kahp'}
