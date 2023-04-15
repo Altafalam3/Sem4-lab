@@ -71,6 +71,30 @@ matrix=
 
 ```
 
+### Assignment 8
+```
+Create two lists numbers and multipliers , scan through multipliers list , take each of the" value "and multiply the number from the numbers list at the position equals to index of value by a.
+
+If multipliers list exhaust before numbers handle the exception with following message "program haulted since multiplier list exhausted" .
+
+If either of the list name is referred incorrectly handle the exception by printing the message the" list does not exist".
+
+At the end print the message multiplication of two list is done.
+
+
+Write a program to add two values a and b , and integer value is assigned to a however while defining b by mistakenly it was enclosed with a quotes by the programmer handle the exception so that b can be added with the integer value a (here b  would have been int/float if not in quotes ) Display appropriate messages and use nested exception handling .
+```
+
+
+### Assignment 3
+```
+Write a program to read a file called  bookdata.txt if file does not exist create an empty file and display appropriate message to user.
+
+If empty file is created ask user to enter details of minimum 3 books, for every book user should enter title,author,booktype, publication and price.
+
+Store information of each book in the form of dictionary, list of all such books should be written to file then open the file read book details and display it.
+```
+
 
 ### Assignment 10
 ```
