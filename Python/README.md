@@ -1,4 +1,4 @@
-# 4,8,9 assignment pending remaining all done
+# 4,8,9 assignment programs are pending, remaining all programs uploaded
 
 ### Assignment 10
 ```
@@ -54,6 +54,7 @@ a. 9x + 6y – 5z + 2w = 17
 b. 4x + 5y – 7z + 3w = 10
 c. -3x - 4y + 2z - 5w = 20
 d. 6x + y + 9z - w = 23
+
 2. Perform the following operations on a matrix
 𝐴 = [
 5 3 2
