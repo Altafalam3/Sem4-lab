@@ -1,6 +1,6 @@
 # SE IT Sem4 Lab Programs
 
-Progress of completion
+## Progress of completion
 ### √ Python Lab 
 ### × MPL
 ### × CN
@@ -9,8 +9,6 @@ Progress of completion
 Do like if this has helped you , Pull requests are welcomed!!
 <blockquote>
 Feel free to reach out to me if you have any doubts or feedbacks regarding this.<br>
-Altaf alam<br>
-Email: altaf.alam0032@gmail.com
 </blockquote>
 
 ========Thank You !!!=========
