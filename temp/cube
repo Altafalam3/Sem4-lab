@@ -1,0 +1,9 @@
+$a = 5 
+echo "Area = "
+C
+
+echo expr $a * $a * $a
+echo "Total Surface Area = "
+D
+  
+echo expr (6 * $a * $a)
