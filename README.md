@@ -1,10 +1,10 @@
 # SE IT Sem4 Lab Programs
 
 ## Progress of completion
-### √ Python Lab 
-### × MPL
-### × CN
-### × Unix
+- [x] Python Lab 
+- [ ] MPL
+- [ ] CN
+- [ ] Unix
 
 Do like if this has helped you , Pull requests are welcomed!!
 <blockquote>
