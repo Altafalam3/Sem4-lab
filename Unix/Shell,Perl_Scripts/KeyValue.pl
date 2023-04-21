@@ -5,7 +5,6 @@
 print "Enter roll no:";
 $c = <>;
 
-# for handling newlines
 chomp($c);
 
 print "\$data{$c} = $data{$c}\n";
