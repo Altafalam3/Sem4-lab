@@ -7,4 +7,5 @@ $c = <>;
 
 chomp($c);
 
-print "\$data{$c} = $data{$c}\n";
+# string + num concat
+print "\$data{$c} = ".$data{$c};
