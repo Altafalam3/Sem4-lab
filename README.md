@@ -1,8 +1,8 @@
 # SE IT Sem4 Lab Programs
 
 ## Progress of completion
-- [x] Python Lab 
-- [ ] MPL
+- [x] Python Lab
+- [x] MPL
 - [ ] CN
 - [ ] Unix
 
