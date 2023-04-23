@@ -22,6 +22,7 @@ print("Number of columns:", df.shape[1])
 
 #To give the descriptive statistics of the created dataset:
 print(df.describe())
+
 #describe copies sold in second edition
 print(df['Copies sold in second edition'].describe())
 

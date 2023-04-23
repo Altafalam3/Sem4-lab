@@ -140,6 +140,12 @@ second edition” and “Copies sold in third edition”to FE, SE and
 TE respectively
 6. Add a column “Average sale” to your dataframe derived as
 (average of FE, SE and TE) * Price.
+7. Display the details of books grouped by author.
+8. For each group obtained in above query display maximum
+value of Average sale.
+9. Reshape your dataframe such that rows will show ‘Author’,
+column will show “Publication” and values will be ‘Title’ of
+book.
 ```
 
 ### Assignment 14

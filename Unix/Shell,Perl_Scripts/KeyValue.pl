@@ -5,6 +5,7 @@
 print "Enter roll no:";
 $c = <>;
 
+# handle new line
 chomp($c);
 
 # string + num concat
