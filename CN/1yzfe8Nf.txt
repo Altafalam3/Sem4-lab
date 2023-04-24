@@ -1,0 +1,35 @@
+import java.io.*;  
+    import java.net.*;  
+     import java.util.*;
+    public class MyClient {  
+    public static void main(String[] args) {  
+    Scanner userInput = new Scanner(System.in);
+    try{      
+    Socket s=new Socket("localhost",6666);  
+    DataOutputStream dout=new DataOutputStream(s.getOutputStream());  
+    //dout.writeUTF("Hello Server");  
+    System.out.println("Enter a first number: ");
+
+      //userInput.nextInt();
+      Integer x= userInput.nextInt();
+      System.out.println("Enter a second number: ");
+    //  userInput.nextInt();
+      Integer y= userInput.nextInt();
+
+
+    //  System.out.println("hello");
+
+
+      dout.writeInt(x);
+      dout.writeInt(y);
+
+     InputStream inFromServer = s.getInputStream();
+     DataInputStream in =
+                    new DataInputStream(inFromServer);
+     System.out.println("Server responds: " +in.readInt());
+
+
+    s.close();  
+    }catch(Exception e){System.out.println(e);}  
+    }  
+    }  
