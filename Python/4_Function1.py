@@ -10,7 +10,7 @@ def add_iterables(*args):
     return result
 
 # Example 1
-print(add_iterables([1, 2, 3], [4, 5, 6]))
+print(add_iterables([1, 2, 3,4], [4, 5, 6,8]))
 # Output: [5, 7, 9]
 
 # Example 2
