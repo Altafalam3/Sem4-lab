@@ -10,7 +10,7 @@ global ns nf np
 $ns flush-trace
 close $nf
 close $np
-exec nam mytcp.nam 
+exec nam mytcp.nam &
 exit 0
 }
 

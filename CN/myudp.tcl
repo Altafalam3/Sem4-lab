@@ -10,7 +10,7 @@ global ns nr nf
 $ns flush-trace
 close $nf
 close $nr 
-exec nam outu.nam
+exec nam outu.nam &
 exit 0
 }
 
