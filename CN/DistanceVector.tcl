@@ -11,7 +11,7 @@ proc finish { } {
 global ns nf np
 $ns flush-trace
 close $nf
-exec nam out1.nam
+exec nam out1.nam &
 exit 0
 }
 
