@@ -1,0 +1,64 @@
+Ping: "Ping" is a computer networking tool that is used to test the reachability of a networked device and measure the time it takes for packets of data to travel from the source to the destination and back. The "ping" command sends a series of small packets of data to the target device and measures the time it takes for the device to respond to each packet. The time it takes for the packets to travel to the target and back is known as the "round-trip time," and this information can be used to diagnose network connectivity problems, determine the speed and reliability of a network connection, or evaluate the performance of a device. 
+-a : Resolve addresses to hostnames.
+-w timeout  :  Timeout in milliseconds to wait for each reply.
+-f : Set Don't Fragment flag in packet (IPv4-only).
+-i : Specifies the value of the Time To Live (TTL) field in the IP header for echo Request messages sent. The default is the default TTL value for the host. The maximum TTL is 255. 
+-n size: This option is used to control the number of packets sent to the target device.
+
+Ipconfig: IPCONFIG stands for Internet Protocol Configuration. This is a command-line application which displays all the current TCP/IP (Transmission Control Protocol/Internet Protocol) network configuration, refreshes the DHCP (Dynamic Host Configuration Protocol) and DNS (Domain Name Server). It also displays IP address, subnet mask, and default gateway for all adapters. 
+/all: Displays the full TCP/IP configuration for all adapters. Adapters can represent physical interfaces, such as installed network adapters, or logical interfaces, such as dial-up connections 
+/displaydns: Displays the contents of the DNS client resolver cache, which includes both entries preloaded from the local Hosts file and any recently obtained resource records for name queries resolved by the computer. The DNS Client service uses this information to resolve frequently queried names quickly, before querying its configured DNS servers.  
+/flushdns: Flushes and resets the contents of the DNS client resolver cache. During DNS troubleshooting, you can use this procedure to discard negative cache entries from the cache, as well as any other entries that have been added dynamically. 
+/release : Releases the current IP address assigned to the computer, effectively resetting the IP configuration. This parameter sends a request to the DHCP server to abandon the active lease(s) and removes it (or them) from your system. 
+/renew: Requests a new IP address from the DHCP server.
+
+Tracert: This diagnostic tool determines the path taken to a destination by sending Internet Control Message Protocol (ICMP) echo Request or ICMPv6 messages to the destination with incrementally increasing time to live (TTL) field values. 
+a)-d: Stops attempts to resolve the IP addresses of intermediate routers to their names. This can speed up the return of results. 
+b)-h: Specifies the maximum number of hops in the path to search for the target (destination). The default is 30 hops. 
+c)-w: Specifies the amount of time in milliseconds to wait for the ICMP time Exceeded or echo Reply message corresponding to a given echo Request message to be received. If not received within the time-out, an asterisk (*) is displayed. The default time-out is 4000 (4 seconds). 
+d)-4: Specifies that tracert.exe can use only IPv4 for this trace. 
+e) -j : Specifies a loose source route for the trace, allowing you to specify the intermediate hops that packets should take along the way. 
+The tracepath and traceroute terminal programs are crucial in network diagnostics. Both commands map the network and display possible packet routes and transit delays from a source to a destination. 
+
+4)nslookup: Displays information that you can use to diagnose Domain Name System infrastructure. The nslookup command-line tool has two modes: interactive and noninteractive. 
+a)-d2: This performs a lookup of all addresses associated with the specified hostname. 
+b) -query=mx : This performs a lookup of the mail exchange (MX) records associated with the specified domain, which are used to route email for that domain. 
+c)-type=ns: By checking the NS records, you can see which is the authoritative server for a specific domain. 
+d)-type=soa: you can see the start of authority and get information about the zone. 
+
+5)netstat: Netstat stands for “network statistics”. If you’re having difficulties accessing the internet, the netstat command can help you identify where the problem lies. Netstat will display all of your computer’s active network connections and the status of those connections. If a connection is not working, netstat can often provide more information about why it is not working. 
+a)-a: Shows all active connections and listening ports on the computer 
+b)-e: Displays Ethernet statistics, including the number of bytes and packets sent and received. 
+c)-n: Shows active connections and their associated IP addresses and port numbers. The ‘-n’ option causes ‘netstat’ to display addresses and port numbers in numerical form, rather than resolving them to hostnames and service names. 
+d)-s: Displays a summary of all network statistics, including information on the number of segments received, errors, and more. 
+
+6)route: The ‘route’ command is used to manipulate the IP routing table in Windows.With the ‘route’ command, you can view the current routing table, add new routes, modify existing routes, and delete routes.The ‘route’ command is often used in advanced network configuration scenarios, such as setting up VPN connections, specifying custom routes for specific networks, or resolving connectivity issues.  
+
+7)hostname: The ‘hostname’ command is used to display or set the hostname of a computer in windows.  When run without any options, the ‘hostname’ command will display the current hostname of the computer. 
+
+8)ARP: The arp command displays and modifies the Internet-to-adapter address translation tables used by the Address in Networks and communication management. The arp command displays the current ARP entry for the host specified by the HostName variable. 
+a)-a: Displays the current ARP (Address Resolution Protocol) cache, which maps IP addresses to MAC addresses on the local network. 
+b)-v: Displays the ARP cache in verbose mode, including additional information such as the type of ARP entries (dynamic or static) and the interface used for each entry. 
+
+9)curl: It is a command-line tool powered by the libcurl library to transfer data to and from the server using various protocols, such as HTTP, HTTPS, FTP, FTPS, IMAP, IMAPS, POP3, POP3S, SMTP, and SMTPS. It is highly popular for automation and scripts due to its wide range of features and protocol support. 
+a)curl <url>: Downloads the content of the specified URL and displays it in the console. 
+b)curl -o: Downloads the content of the specified URL and saves it to a file with the specified name.
+
+10)whois : It allows you to perform lookup of owner information of a website by querying databases that stores the registered users of a domain or IP address. 
+a) whois -H <domain name> : Retrieves information about the specified domain name, but suppresses the inclusion of headers and footers. 
+
+11)Dig: dig command stands for Domain Information Groper. It is used for retrieving information about DNS name servers. It is basically used by network administrators. It is used for verifying and troubleshooting DNS problems and to perform DNS lookups. Dig command replaces older tools such as nslookup and the host. 
+
+12)mtr: The mtr command is a combination of ping and traceroute commands. It is a network diagnostic tool that continuously sends packets showing ping time for each hop. It also displays network problems of the entire route taken by the network packets. 
+
+13)tcpdump: tcpdump is a packet sniffing and packet analyzing tool for a System Administrator to troubleshoot connectivity issues in Linux. It is used to capture, filter, and analyze network traffic such as TCP/IP packets going through your system. It is many times used as a security tool as well. It saves the captured information in a pcap file, these pcap files can then be opened through Wireshark or through the command tool itself. 
+
+14)ss: A replacement for the deprecated netstat command, ss gives you detailed information about how your computer communicates with other computers, networks, and services. ss displays statistics for Transmission Control Protocol (TCP), User Datagram Protocol (UDP), Unix (interprocess), and raw sockets. Raw sockets operate at the network OSI level, which means TCP and UDP headers have to be handled by the application software, not by the transport layer. Internet Control Message Protocol (ICMP) messages and the ping utility both use raw sockets. 
+
+15) Wget: Wget is the non-interactive network downloader which is used to download files from the server even when the user has not logged on to the system and it can work in the background without hindering the current process. 
+
+16) route: Command in Linux is used when you want to work with the IP/kernel routing table. It is mainly used to set up static routes to specific hosts or networks via an interface. It is used for showing or update the IP/kernel routing table. 
+
+17) Host: The host command also displays any aliases associatd with the HostName parameter. If the local host is using the DOMAIN protocol, the local or remote name server database is queried before searching the local /etc/hosts file. The host command may also return other name records found in the DNS (Domain Name System). 
+
+18) ifconfig:  veryh much similar to ipconfig

@@ -1,8 +1,8 @@
 set ns [new Simulator]
 
-set nr [open out.tr w]
+set nr [open outu.tr w]
 $ns trace-all $nr
-set nf [open out.nam w]
+set nf [open outu.nam w]
 
 $ns namtrace-all $nf
 proc finish {} {
@@ -10,7 +10,7 @@ global ns nr nf
 $ns flush-trace
 close $nf
 close $nr 
-exec nam out.nam
+exec nam outu.nam
 exit 0
 }
 
