@@ -3,7 +3,7 @@
 ## Progress of completion
 - [x] Python Lab
 - [x] MPL
-- [ ] CN
+- [x] CN
 - [ ] Unix
 
 Do star the repo if this has helped you , Pull requests are welcomed!!
