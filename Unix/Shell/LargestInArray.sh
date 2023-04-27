@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# read -a arr
+
 # define an array
 arr=(5 2 8 1 6)
 
