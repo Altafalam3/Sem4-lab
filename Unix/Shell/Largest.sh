@@ -7,11 +7,11 @@ arr=(5 2 8 1 6)
 largest=${arr[0]}
 
 # iterate over array and compare
-for i in "${arr[@]}"
+for i in ${arr[@]}
 do
-   if [ "$i" -gt "$largest" ]
+   if [ $i -gt $largest ]
    then
-      largest="$i"
+      largest=$i
    fi
 done
 
