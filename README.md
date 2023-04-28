@@ -4,7 +4,7 @@
 - [x] Python Lab
 - [x] MPL
 - [x] CN
-- [ ] Unix
+- [x] Unix
 
 Do star the repo if this has helped you , Pull requests are welcomed!!
 <blockquote>
