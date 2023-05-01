@@ -17,7 +17,7 @@ inc dl
 jmp down
 next: inc dh
 down: loop up
-mov zeros, dh
-mov ones,dl
+mov zeros, dl
+mov ones,dh
 int 03H
 end Start
