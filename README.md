@@ -11,4 +11,5 @@ Do star the repo if this has helped you , Pull requests are welcomed!!
 Feel free to reach out to me if you have any doubts or feedbacks regarding this.<br>
 </blockquote>
 
+## Note: This is for educational purposes only, and we do not promote any form of cheating.
 ========Thank You !!!=========
